@@ -50,7 +50,9 @@ const skillsSection = {
     emoji(
       "⚡ Build scalable full-stack applications with React, Next.js, Node.js, and modern databases"
     ),
-    emoji("⚡ Build and optimize AI/ML models using TensorFlow, PyTorch, and LLMs"),
+    emoji(
+      "⚡ Build and optimize AI/ML models using TensorFlow, PyTorch, and LLMs"
+    ),
     emoji(
       "⚡ Design CI/CD pipelines and automate workflows with Docker, Kubernetes, and cloud platforms"
     )
@@ -116,7 +118,8 @@ const educationInfo = {
     {
       schoolName: "Shiv Nadar University, Chennai",
       logo: require("./assets/images/shivNadarUniversityChennaiLogo.jpg"),
-      subHeader: "Bachelor of Technology in Artificial Intelligence and Data Science",
+      subHeader:
+        "Bachelor of Technology in Artificial Intelligence and Data Science",
       duration: "2021 - 2025",
       desc: "Graduated First Class with Distinction as part of the Founding Batch. GPA: 8.93/10.00",
       descBullets: [
@@ -221,7 +224,8 @@ const bigProjects = {
     {
       image: require("./assets/images/sangeetLogo.jpg"),
       projectName: "Sangeet-V2 - AI Playlist Engine",
-      projectDesc: "Full-stack AI-powered music recommendation system using Llama-3 to infer emotional context and genre transitions. Integrated Spotify OAuth and APIs to generate personalized playlists with stateful user interactions",
+      projectDesc:
+        "Full-stack AI-powered music recommendation system using Llama-3 to infer emotional context and genre transitions. Integrated Spotify OAuth and APIs to generate personalized playlists with stateful user interactions",
       footerLink: [
         {
           name: "View on GitHub",
@@ -232,7 +236,8 @@ const bigProjects = {
     {
       image: require("./assets/images/rateLimiterLogo.jpg"),
       projectName: "Rate Limiter as a Service",
-      projectDesc: "Token-bucket rate limiting API with in-memory and Redis storage for distributed usage. Exposed Prometheus metrics and structured log aggregation for observability in production environments",
+      projectDesc:
+        "Token-bucket rate limiting API with in-memory and Redis storage for distributed usage. Exposed Prometheus metrics and structured log aggregation for observability in production environments",
       footerLink: [
         {
           name: "View on GitHub",
@@ -247,7 +252,8 @@ const bigProjects = {
     {
       image: require("./assets/images/guardrailsLogo.jpg"),
       projectName: "OpenAI Guardrails JS (Open Source)",
-      projectDesc: "Contributed to OpenAI's JavaScript Guardrails SDK by improving guardrail evaluation correctness and type safety. Added defensive runtime and TypeScript validations to prevent silent failures during guard execution",
+      projectDesc:
+        "Contributed to OpenAI's JavaScript Guardrails SDK by improving guardrail evaluation correctness and type safety. Added defensive runtime and TypeScript validations to prevent silent failures during guard execution",
       footerLink: [
         {
           name: "View PR",
@@ -262,7 +268,8 @@ const bigProjects = {
     {
       image: require("./assets/images/akinatorLogo.jpg"),
       projectName: "Akinator-LLM",
-      projectDesc: "Weekend full-stack project that replicates Akinator's 20-questions game using LLM technology for intelligent question generation and character guessing",
+      projectDesc:
+        "Weekend full-stack project that replicates Akinator's 20-questions game using LLM technology for intelligent question generation and character guessing",
       footerLink: [
         {
           name: "View on GitHub",
@@ -273,7 +280,8 @@ const bigProjects = {
     {
       image: require("./assets/images/staySphereLogo.jpg"),
       projectName: "StaySphere - Hotel Booking App",
-      projectDesc: "Full-stack MERN booking platform with authentication, admin panel, dynamic listings, and LLM-powered recommendation engine using booking history",
+      projectDesc:
+        "Full-stack MERN booking platform with authentication, admin panel, dynamic listings, and LLM-powered recommendation engine using booking history",
       footerLink: [
         {
           name: "View on GitHub",
@@ -284,7 +292,8 @@ const bigProjects = {
     {
       image: require("./assets/images/urlShortenerLogo.jpg"),
       projectName: "URL Shortener",
-      projectDesc: "Production-grade NPM package for one-line URL shortening with analytics & TypeScript support. Reduced integration time from hours to 30s via zero-config shared MongoDB Atlas setup",
+      projectDesc:
+        "Production-grade NPM package for one-line URL shortening with analytics & TypeScript support. Reduced integration time from hours to 30s via zero-config shared MongoDB Atlas setup",
       footerLink: [
         {
           name: "View on GitHub",
@@ -324,7 +333,8 @@ const achievementSection = {
     },
     {
       title: "LeetCode Problem Solver",
-      subtitle: "Solved 350+ problems with a rating of 1550 in C++, demonstrating strong algorithmic and data structure skills",
+      subtitle:
+        "Solved 350+ problems with a rating of 1550 in C++, demonstrating strong algorithmic and data structure skills",
       image: require("./assets/images/leetCodeLogo.png"),
       imageAlt: "LeetCode Logo",
       footerLink: [

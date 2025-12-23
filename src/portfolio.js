@@ -160,23 +160,23 @@ const workExperiences = {
       date: "October 2025 – Present",
       desc: "Building production-grade scalable applications for Construction Management as part of the Full-Stack team.",
       descBullets: [
-        "Building scalable applications using Django, VueJS, ReactJS, PostgreSQL and AWS",
-        "Developing use cases for Construction Management workflows",
-        "Working on full-stack features for enterprise-grade solutions"
+        "Owned Egnyte integration enabling forward-compatible data sync for enterprise customers",
+        "Built and owned the Marketplace microservice using FastAPI and Redis within a monorepo",
+        "Implemented automated database provisioning and migrations for ERP integrations (QBO, QBD, Sage)",
+        "Delivered end-to-end features across backend services, admin UI, and system configurations"
       ]
     },
     {
-      role: "Software Engineer Intern - Technical Support",
+      role: "Software Engineer Intern",
       company: "Motorq",
       companylogo: require("./assets/images/motorqLogo.png"),
       date: "June 2025 – September 2025",
-      desc: "Built scalable systems and automation tools to improve reliability and operational efficiency.",
+      desc: "Owned the Infinity internal portal and built scalable systems for operational excellence.",
       descBullets: [
-        "Built downtime email/acknowledgement system, improving reliability",
-        "Automated alerts via PagerDuty + MonteCarlo APIs, cutting false positives",
-        "Resolved 35+ large-scale JIRA tickets using Snowflake data queries",
-        "Designed CI/CD pipeline for automated testing & deployments",
-        "Optimized internal portal (Next.js + PostgreSQL), enabling fast native rendering for 6M+ records"
+        "Owned the Infinity internal portal, building downtime notifications, CI/CD pipelines (multiple environment handling), and performance optimizations (Next.js + PostgreSQL) for rendering 6M+ records",
+        "Improved portal reliability through automated downtime email acknowledgements and deployment-backed testing workflows",
+        "Automated alerting via PagerDuty and MonteCarlo APIs, significantly reducing false positives",
+        "Resolved 35+ large-scale JIRA issues using Snowflake queries for data-driven debugging"
       ]
     },
     {
@@ -218,6 +218,58 @@ const bigProjects = {
   title: "Projects",
   subtitle: "SOME OF MY RECENT PERSONAL PROJECTS",
   projects: [
+    {
+      image: require("./assets/images/sangeetLogo.jpg"),
+      projectName: "Sangeet-V2 - AI Playlist Engine",
+      projectDesc: "Full-stack AI-powered music recommendation system using Llama-3 to infer emotional context and genre transitions. Integrated Spotify OAuth and APIs to generate personalized playlists with stateful user interactions",
+      footerLink: [
+        {
+          name: "View on GitHub",
+          url: "https://github.com/srivatsan0611/sangeet-v2"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/rateLimiterLogo.jpg"),
+      projectName: "Rate Limiter as a Service",
+      projectDesc: "Token-bucket rate limiting API with in-memory and Redis storage for distributed usage. Exposed Prometheus metrics and structured log aggregation for observability in production environments",
+      footerLink: [
+        {
+          name: "View on GitHub",
+          url: "https://github.com/srivatsan0611/rate-limiter-as-a-service"
+        },
+        {
+          name: "Live Demo",
+          url: "https://rate-limiter-as-a-service.vercel.app"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/guardrailsLogo.jpg"),
+      projectName: "OpenAI Guardrails JS (Open Source)",
+      projectDesc: "Contributed to OpenAI's JavaScript Guardrails SDK by improving guardrail evaluation correctness and type safety. Added defensive runtime and TypeScript validations to prevent silent failures during guard execution",
+      footerLink: [
+        {
+          name: "View PR",
+          url: "https://github.com/openai/openai-guardrails-js/pull/51"
+        },
+        {
+          name: "View on GitHub",
+          url: "https://github.com/srivatsan0611/openai-guardrails-js"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/akinatorLogo.jpg"),
+      projectName: "Akinator-LLM",
+      projectDesc: "Weekend full-stack project that replicates Akinator's 20-questions game using LLM technology for intelligent question generation and character guessing",
+      footerLink: [
+        {
+          name: "View on GitHub",
+          url: "https://github.com/srivatsan0611/akinator-llm"
+        }
+      ]
+    },
     {
       image: require("./assets/images/staySphereLogo.jpg"),
       projectName: "StaySphere - Hotel Booking App",
@@ -271,22 +323,8 @@ const achievementSection = {
       ]
     },
     {
-      title: "CodeChef 2-Star Problem Solver",
-      subtitle:
-        "Achieved 2-Star rating on CodeChef with highest rating of 1489, solving complex algorithmic problems",
-      image: require("./assets/images/codeChefLogo.jpeg"),
-      imageAlt: "CodeChef Logo",
-      footerLink: [
-        {
-          name: "View Profile",
-          url: "https://www.codechef.com/users/srivatsan0611"
-        }
-      ]
-    },
-
-    {
       title: "LeetCode Problem Solver",
-      subtitle: "Solved 100+ problems with a rating of 1550, demonstrating strong algorithmic and data structure skills",
+      subtitle: "Solved 350+ problems with a rating of 1550 in C++, demonstrating strong algorithmic and data structure skills",
       image: require("./assets/images/leetCodeLogo.png"),
       imageAlt: "LeetCode Logo",
       footerLink: [
